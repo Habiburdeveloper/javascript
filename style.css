@@ -1,0 +1,176 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.popup{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.popup .pop{
+	width: 40%;
+	border: 2px solid red;
+	padding: 20px;
+	border-radius: 4px;
+	position: relative;
+}
+.pop h3{
+	text-align: center;
+
+}
+.pop i{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.pop i:hover{
+	color: green;
+	
+}
+
+.popup .pop button{
+	padding: 15px;
+	
+}
+.popup .pop .button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.test .jac_2{
+	background: red;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#bR{
+	width: 400px;
+	height: 400px;
+	border: 2px solid red;
+	display: none;
+
+}
+
+.box{
+	width: 50%;
+	margin: auto;
+	background-color: #f39c12;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box h1{
+	background-color: #2980b9;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.about{
+	background-color: blueviolet;
+	padding: 7px;
+	display: none;
+}
+.about p{
+	line-height: 20px;
+	font-size: 18px;
+}
+
+.jabi{
+	width: 50%;
+	border: 2px solid red;
+	padding: 25px;
+	margin-top: 20px;
+}
+.cat_container{
+	position: relative;
+	margin: 100px 0 100px 0;
+	padding-bottom: 50px;
+}
+.cat{
+	width: 30%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	background-color: #06c9cc;
+	box-shadow: 0px 0px 12px 5px rgba(223, 11, 11, 0.83);
+	-webkit-box-shadow: 0px 0px 12px 5px rgba(255,21,21,0.83);
+	-moz-box-shadow: 0px 0px 12px 5px rgba(255,21,21,0.83);
+}
+.cat button{
+	margin-bottom: 20px;
+	padding: 7px;
+	border-radius: 10px;
+	border: 1px solid #06c9cc;
+	background-color: #f20ac0;
+	color: #fff;
+}
+.cat button:hover{
+	background-color: #a1a103;
+}
+.cat_box input{
+	border: 1px solid red;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-right: 23px;
+}
+.cat_box{
+	position: relative;
+}
+.cat_box i{
+	cursor: pointer;
+	position: absolute;
+	top: 18%;
+	left: 52%;
+}
+.cat_box i:hover{
+	color: red;
+}
+
+/* Acccordion */
+.acrdn_container{
+	width: 40%;
+	background-color: #34495e;
+	color: #fff;
+	padding: 25px 25px 25px 25px;
+	margin:  auto;
+	margin-bottom: 50px; 
+}
+.acrdn_heading{
+	background-color: #7f8c8d;
+	font-size: 23px;
+	padding: 6px;
+	margin: 0;
+	position: relative;
+	border-bottom: 2px solid #2d3436;
+	cursor: pointer;
+}
+.acrdn_heading::after{
+	content: '\002B';
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 30px;
+	color: #fff;
+}
+.active::after{
+	content: '\2212';
+}
+.acrdn_content{
+	background-color: #636e72;
+	padding: 6px;
+	margin: 0 0 10px 0;
+	font-size: 18px;
+	display: none;
+}
